@@ -1,7 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import "./HomeHero.scss";
 
 export default function HomeHero() {
+
+	const [modal, setModal] =useState(false)
+
+	const modalView = () => {
+		setModal(!modal)
+	}
+
 	return (
 		<section id='home' className='hero'>
 			<div className='container'>
@@ -15,9 +22,9 @@ export default function HomeHero() {
 					m'orienter vers une formation de développeur web avec Openclassrooms.
 				</p>
 				{/* affiche modal diplome */}
-				<btn className='btn' href='#my-modal-2'>
+				<button onClick={modalView} className='btn'>
 					Voir le diplôme
-				</btn>
+				</button>
 
 				<p>
 					Au court de cettte formation, j'ai développé 7 projets dont une veille
@@ -46,6 +53,14 @@ export default function HomeHero() {
 					>
 						Télécharger mon cv
 					</a>
+				</div>
+			</div>
+
+			<div className={modal ? "modal" : "not-visible"}>
+				<div onClick={modalView} className="overlay"></div>
+				<div className="certif" >
+					<button onClick={modalView} className="close" >X</button>
+					<img src="./certificat-RNPC-5.jpg" alt="certification Openclassrooms développeur web"/>	
 				</div>
 			</div>
 		</section>
