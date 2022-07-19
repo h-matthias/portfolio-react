@@ -1,0 +1,135 @@
+[
+    {
+        "projetNum": "Projet 1",
+        "title": "Prenez en main votre formation de développeur web",
+        "objectif": [
+            "Définissez votre planning de formation",
+            "Réalisez une veille technologique"
+        ]
+    },
+    {
+        "projetNum": "Projet 2 - Reservia",
+        "title": "Transformez une maquette en site web avec HTML & CSS",
+        "objectif": [
+            "Utiliser un système de gestion de versions pour le suivi du projet et son hébergement",
+            "Intégrer du contenu conformément à une maquette",
+            "Implémenter une interface responsive"
+        ],
+        "link": {
+            "prod": "https://h-matthias.github.io/MatthiasHoarau_2_17092020/",
+            "github": "https://github.com/h-matthias/MatthiasHoarau_2_17092020"
+        },
+        "stack": [
+            "html",
+            "css"
+        ]
+    },
+    {
+        "projetNum": "Projet 3 - oh my food",
+        "title": "Dynamisez une page web avec des animations CSS",
+        "objectif": [
+            "Assurer la cohérence graphique d'un site web",
+            "Mettre en œuvre des effets CSS graphiques avancés",
+            "Mettre en place une structure de navigation pour un site web"
+        ],
+        "link": {
+            "prod": "https://h-matthias.github.io/MatthiasHoarau_3_19102020/",
+            "github": "https://github.com/h-matthias/MatthiasHoarau_3_19102020"
+        },
+        "stack": [
+            "html",
+            "css",
+            "sass"
+        ]
+    },
+    {
+        "projetNum": "Projet 4 - La chouette agence",
+        "title": "Optimisez un site web existant",
+        "objectif": [
+            "Écrire un code HTML et CSS maintenable",
+            "Assurer l'accessibilité d'un site web",
+            "Optimiser le référencement d'un site web",
+            "Réaliser une recherche des bonnes pratiques en développement web",
+            "Optimiser la taille et la vitesse d’un site web"
+        ],
+        "link": {
+            "prod": "https://h-matthias.github.io/la-chouette-agence-optimiser/",
+            "github": "https://github.com/h-matthias/la-chouette-agence-optimiser"
+        }
+    },
+    {
+        "projetNum": "Projet 5 - Orinoco",
+        "title": "Construisez un site e-commerce en JavaScript",
+        "objectif": [
+            "Créer un plan de test pour une application",
+            "Interagir avec un web service avec JavaScript",
+            "Valider des données issues de sources externes",
+            "Gérer des événements JavaScript"
+        ],
+        "link": {
+            "prod": "https://h-matthias.github.io/p5_orinoco/",
+            "github": "https://github.com/h-matthias/p5_orinoco"
+        },
+        "stack": [
+            "html",
+            "css",
+            "bootstrap",
+            "javascript"
+        ]
+    },
+    {
+        "projetNum": "Projet 6 - So Pekocko",
+        "title": "Construisez une API sécurisée pour une application d'avis gastronomiques",
+        "objectif": [
+            "Implémenter un modèle logique de données conformément à la réglementation",
+            "Mettre en œuvre des opérations CRUD de manière sécurisée",
+            "Stocker des données de manière sécurisée"
+        ],
+        "link": {
+            "prod": "",
+            "github": "https://github.com/h-matthias/Project-6---So-Pekocko"
+        },
+        "stack": [
+            "nodejs",
+            "express",
+            "mongoDB"
+        ]
+    },
+    {
+        "projetNum": "Projet 7 - Groupomania",
+        "title": "Créez un réseau social d’entreprise",
+        "objectif": [
+            "Authentifier un utilisateur et maintenir sa session",
+            "Gérer un stockage de données à l'aide de SQL",
+            "Implémenter un stockage de données sécurisé en utilisant SQL",
+            "Personnaliser le contenu envoyé à un client web"
+        ],
+        "link": {
+            "prod": "",
+            "github": "https://github.com/h-matthias/Project-7-Groupomania"
+        },
+        "stack": [
+            "vuejs",
+            "nodejs",
+            "express",
+            "mysql"
+
+        ]
+    },
+    {
+        "projetNum": "Portfolio",
+        "title": "Mon portfolio",
+        "objectif": [
+            "Créer un site en React.js",
+            "Avoir de la visibilité à travers un site personnel"
+        ],
+        "link": {
+            "prod": "",
+            "github":"https://github.com/h-matthias/portfolio.git"
+        },
+        "stack": [
+            "React",
+            "sass"
+        ]
+    }
+]
