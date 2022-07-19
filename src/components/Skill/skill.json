@@ -1,0 +1,20 @@
+{
+    "skills": [
+        "html",
+        "css",
+        "sass",
+        "javascript",
+        "vuejs",
+        "react",
+        "nodejs",
+        "express",
+        "mongoDB",
+        "mysql"
+    ],
+    "tools":[
+        "git",
+        "github",
+        "vscode",
+        "postman"
+    ]
+}
