@@ -128,7 +128,7 @@
             "github":"https://github.com/h-matthias/portfolio.git"
         },
         "stack": [
-            "React",
+            "react",
             "sass"
         ]
     }
